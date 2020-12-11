@@ -1,0 +1,8 @@
+[Unit]
+Description=Odroid Delayed Fan Curve
+
+[Service]
+ExecStart=/home/odroid/odroid_pid_fan/main.sh
+
+[Install]
+WantedBy=multi-user.target

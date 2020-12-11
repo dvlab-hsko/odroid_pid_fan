@@ -104,7 +104,7 @@ do
   ${DEBUG} && logger -t $LOGGER_NAME "New Fan Speed: $write_fan_speed"
   ${DEBUG} && logger -t $LOGGER_NAME "Current Temp: $current_max_temp"
 
-  ${DEBUG} && logger -t $LOGGER_NAME "event: adjust; speed: ${new_fan_speed}"
+  logger -t $LOGGER_NAME "event: adjust; speed: ${write_fan_speed}; temp: $current_max_temp"
   echo $write_fan_speed > ${FAN_SPEED_FILE}
 
   sleep ${TEST_EVERY}

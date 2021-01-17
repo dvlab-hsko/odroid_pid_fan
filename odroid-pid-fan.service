@@ -2,7 +2,7 @@
 Description=Odroid Delayed Fan Curve
 
 [Service]
-ExecStart=/home/odroid/odroid_pid_fan/main.sh
+ExecStart=/home/odroid/.scripts/odroid_pid_fan/main.sh
 
 [Install]
 WantedBy=multi-user.target

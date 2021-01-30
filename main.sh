@@ -50,7 +50,7 @@ current_fan_speed=0
 speed_0=70
 speed_1=250
 temp_0=40
-temp_1=95
+temp_1=70
 
 kP=0.20000
 kI=0.10000
